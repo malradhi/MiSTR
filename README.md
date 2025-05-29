@@ -32,6 +32,20 @@
 <br> 
 
 
+## 📚 Table of Contents
+- [📜 News](#-news)
+- [💡 Highlights](#-highlights)
+- [🛠️ Usage](#️-usage)
+- [📂 Directory Structure](#-directory-structure)
+- [🙏 Acknowledgements](#-acknowledgements)
+- [📖 Citation](#-citation)
+
+
+
+<br>
+<br>
+
+
 ## 📜 News
 🧠 [2025.5.29] We are releasing all the code to support research on accelerating MiSTR multi-modal models.
 
