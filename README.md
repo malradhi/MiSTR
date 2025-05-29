@@ -14,7 +14,7 @@
   <sup>2</sup>Faculty of Electrical Engineering and Information Technologies, University of Ss. Cyril and Methodius, Skopje, Macedonia<br>
 </p>
 
-<div align="center">
+<!-- <div align="center">
   <a href="https://github.com/ZhikangNiu/A-DMA">
     <img src="https://img.shields.io/badge/Python-3.10-brightgreen" alt="Python">
   </a>
@@ -25,3 +25,6 @@
     <img src="https://img.shields.io/badge/GitHub-Demo%20page-orange.svg" alt="Demo">
   </a>
 </div
+ -->
+ 
+ 
