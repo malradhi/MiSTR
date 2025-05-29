@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+
+
+  <head>
+    <title>expttsyle</title>
+      <article>
+        <header>
+		
+		
+		<p align="left"><img width="25%" src="img/BME.jpg" /></p>
+		
+		
+  
+<p><br> 
+</br></p>
+	
+	<h1>Nonparallel Expressive TTS for Unseen Target Speaker using Style-Controlled Adaptive Layer and Optimized Pitch Embedding</h1>
+        </header>
+      </article>
+	  <p>  </p>
+	  
+	  <p><b>Authors:</b> <a href="https://malradhi.github.io/" target="_blank">Mohammed Salah Al-Radhi</a>, Tamás Gábor Csapó, Géza Németh</p>
+	  <p> 
+	  </p>  
+<p> 
+</p>
+
+<!-- <h3>Datasets</h3> -->
+<!-- <li>Authors names and affiliation: <i>Anonymous submission to INTERSPEECH 2023</i></li> -->
+<li><a href="https://www.openslr.org/60/" target="_blank">LibriTTS corpus:</a> 110 hours audios of 1151 speakers and their corresponding text transcripts</li>
+<li>Pre-trained model: <a href="https://drive.google.com/file/d/176z-t1M2BrIUR9KDp9z77eF3RfiXeDnA/view?usp=sharing" target="_blank">120000.pth.tar</a></li>
+
+
+<!-- <br />  -->
+
+<!-- <h3>Pre-trained model: </h3> -->
+
+
+<p>
+<b>Abstract: </b>
+Recent advancements in text-to-speech (TTS) systems have focused on developing style-controlled models that generate speech with desired characteristics such as accent, tone, pitch, and expressiveness. However, controlling the style during the training process remains a challenge, mainly when dealing with nonparallel data (i.e., where text and audio data lack perfect alignment on a one-to-one basis). In this paper, we propose a nonparallel expressive TTS approach by first introducing a novel advanced control style adaptive layer normalization method to improve the controllability and stability of the training process. Second, we present an optimized pitch embedding method that enhances flexibility and control over pitch manipulation, resulting in improved accuracy in pitch generation. Our experimental results demonstrate that our approach achieves state-of-the-art performance in naturalness and similarity to the speaking styles of the synthesized speeches for unseen target speakers.
+</p>
+
+<p align="left"><img width="40%" src="img/model.jpg" /></p>
+
+
+
+
+
+<!-- 333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333 -->
+
+<!-- Female to Male -->
+<!-- p229_vc_p232 -->
+
+<!-- <h1 style="text-align:center;color:blue"; style="font-family:verdana;">1) Male Speaker </h1> -->
+
+
+<p><b>Nonparallel: it generate speech in the desired "Style" for the "Unseen" target speaker</p></b>
+<hr>
+
+<br />
+
+<h2>1) Female Samples</h2>
+
+
+
+
+
+<tr><td colspan="2"><span><b>Text #1:</b> "I don't like miss stackpole-everything about her displeases me; she talks so much too loud and looks at one as if one wanted to look at her-which one doesn't"</span></td></tr>
+<br />
+<br />
+
+
+<div>	
+	
+      </table>
+      <table class="table">
+	<thead>
+	  <tr>
+	    <th>Natural</th>
+	    <th>Conformer FS2_PWGAN</th>
+		<th>VITS_ESPnet2</th>
+		<th>Proposed</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="wav/00_natural/Female/1069_133699_000003_000002.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/01_CFS2_PWGAN/Female/1069_133699_000003_000002.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/02_VITS/Female/1069_133699_000003_000002.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/03_Proposed/Female/1069_133699_000003_000002.wav" type="audio/wav">
+	      </audio>
+	    </td>
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+	  
+<br />
+<br />	  
+<tr><td colspan="2"><span><b>Text #2:</b> "he also believes that the psychological process operates through transference"</span></td></tr>
+<br />
+<br />
+
+<div>
+	  
+      <table class="table">
+	<thead>
+	  <tr>
+	    <th>Natural</th>
+	    <th>Conformer FS2_PWGAN</th>
+		<th>VITS_ESPnet2</th>
+		<th>Proposed</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="wav/00_natural/Female/2196_170379_000011_000002.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/01_CFS2_PWGAN/Female/2196_170379_000011_000002.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/02_VITS/Female/2196_170379_000011_000002.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/03_Proposed/Female/2196_170379_000011_000002.wav" type="audio/wav">
+	      </audio>
+	    </td>
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+
+<br />
+<br />	  
+<tr><td colspan="2"><span><b>Text #3:</b> "the night of the sixteenth to the seventeenth of february, eighteen thirty three, was a blessed night"</span></td></tr>
+<br />
+<br />
+
+<div> 
+     <table class="table">
+	<thead>
+	  <tr>
+	    <th>Natural</th>
+	    <th>Conformer FS2_PWGAN</th>
+		<th>VITS_ESPnet2</th>
+		<th>Proposed</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="wav/00_natural/Female/5393_19218_000005_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/01_CFS2_PWGAN/Female/5393_19218_000005_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/02_VITS/Female/5393_19218_000005_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/03_Proposed/Female/5393_19218_000005_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+
+
+<br />
+<br />	  
+<tr><td colspan="2"><span><b>Text #4:</b> "and the older one answered back, "well, you're not so good looking" (which was also true)"</span></td></tr>
+<br />
+<br />
+
+<div>
+      <table class="table">
+	<thead>
+	  <tr>
+	    <th>Natural</th>
+	    <th>Conformer FS2_PWGAN</th>
+		<th>VITS_ESPnet2</th>
+		<th>Proposed</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="wav/00_natural/Female/8324_286683_000014_000002.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/01_CFS2_PWGAN/Female/8324_286683_000014_000002.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/02_VITS/Female/8324_286683_000014_000002.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/03_Proposed/Female/8324_286683_000014_000002.wav" type="audio/wav">
+	      </audio>
+	    </td>
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+
+
+<br />
+<br />
+
+<p align="left"><img width="40%" src="img/female_text_4.png" /></p>
+
+<br />
+<br />
+
+
+<!-- <hr style="border-top: 2px dashed gray;"> -->
+<hr style="border-top: 2px dashed gray; line-height: 0; content: '\0020 \0020 \0020 \0020 \0020 \0020 \0020 \0020 \0020 \0020 \0020';"> 
+
+<h2>2) Male Samples</h2>
+
+
+
+
+
+
+<tr><td colspan="2"><span><b>Text #1:</b> "a small pond in the track of the cloud was sucked dry, the water being carried over the adjoining fields together with a large quantity of soft mud, which was scattered over the ground for half a mile around"</span></td></tr>
+<br />
+<br />
+
+
+<div>	
+	
+      </table>
+      <table class="table">
+	<thead>
+	  <tr>
+	    <th>Natural</th>
+	    <th>Conformer FS2_PWGAN</th>
+		<th>VITS_ESPnet2</th>
+		<th>Proposed</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="wav/00_natural/Male/3240_131231_000020_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/01_CFS2_PWGAN/Male/3240_131231_000020_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/02_VITS/Male/3240_131231_000020_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/03_Proposed/Male/3240_131231_000020_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+	  
+<br />
+<br />	  
+<tr><td colspan="2"><span><b>Text #2:</b> "thirty years ago, you could take an old muzzle loader and knock over plenty of ducks in the city limits, and chicago wasn't cook county then, either"</span></td></tr>
+<br />
+<br />
+
+<div>
+	  
+      <table class="table">
+	<thead>
+	  <tr>
+	    <th>Natural</th>
+	    <th>Conformer FS2_PWGAN</th>
+		<th>VITS_ESPnet2</th>
+		<th>Proposed</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="wav/00_natural/Male/3242_67153_000007_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/01_CFS2_PWGAN/Male/3242_67153_000007_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/02_VITS/Male/3242_67153_000007_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/03_Proposed/Male/3242_67153_000007_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+
+<br />
+<br />	  
+<tr><td colspan="2"><span><b>Text #3:</b> "from the golden brightness, displayed by them at noon, they have changed to a lurid red-as if there was anger in the sky!"</span></td></tr>
+<br />
+<br />
+
+<div> 
+     <table class="table">
+	<thead>
+	  <tr>
+	    <th>Natural</th>
+	    <th>Conformer FS2_PWGAN</th>
+		<th>VITS_ESPnet2</th>
+		<th>Proposed</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="wav/00_natural/Male/6836_61803_000005_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/01_CFS2_PWGAN/Male/6836_61803_000005_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/02_VITS/Male/6836_61803_000005_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/03_Proposed/Male/6836_61803_000005_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+
+
+<br />
+<br />	  
+<tr><td colspan="2"><span><b>Text #4:</b> "somewhere about five o'clock pod came into camp with a good mess of trout"</span></td></tr>
+<br />
+<br />
+
+<div>
+      <table class="table">
+	<thead>
+	  <tr>
+	    <th>Natural</th>
+	    <th>Conformer FS2_PWGAN</th>
+		<th>VITS_ESPnet2</th>
+		<th>Proposed</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>
+	      <audio controls="">
+		<source src="wav/00_natural/Male/8098_278278_000025_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/01_CFS2_PWGAN/Male/8098_278278_000025_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/02_VITS/Male/8098_278278_000025_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+	    <td>
+	      <audio controls="">
+		<source src="wav/03_Proposed/Male/8098_278278_000025_000000.wav" type="audio/wav">
+	      </audio>
+	    </td>
+<!-- 	    <td>
+	      <audio controls="">
+		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
+	      </audio>
+	    </td> -->				
+	  </tr>
+	</tbody>
+      </table>
+	</div>
+
+
+
+
+<br />
+<br />
+
+<p align="left"><img width="40%" src="img/male.png" /></p>
+
+
+
+	 
+<hr>
+
+
+</table>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<!-- 	
+<table class="fixed">
+          <thead>
+          <tr>	
+            <th>Ground-truth</th><th>Proposed</th><th>Pitch Controbabilit</th>
+          </tr>	
+        </thead>	
+         <tbody>
+           <tr class="info"><td colspan="4"><span>1: Female speaker with SNR 25 (p233_045), <i>"All businesses continue to trade."</i></span></td>
+           </tr>
+           <tr>
+              <td calss="mel"><img id="F_noisy_mel" src="./src/F_p233_045/ref_noisy.png" alt="mel" width="300" height="200"></td>			
+              <td calss="mel"><img id="F_output_mel" src="./src/F_p233_045/inspect1.png" alt="mel" width="300" height="200"></td>		
+              <td calss="mel"><img id="F_clean_mel" src="./src/F_p233_045/ref_clean.png" alt="mel" width="300" height="200"></td>		
+            </tr>	
+           <tr><th></th><th>Combination: 
+             <select name="cars" id="select" onchange="selectComb(this.value)">
+               <option value="F1">T+D+P+E+S+N</option>
+               <option value="F2">T+D+P+E+N</option>
+               <option value="F3">T+D+P+N</option>
+               <option value="F4">T+D+N</option>
+               <option value="F5">T+N</option>
+               <option value="F6">T</option>
+               <option value="F7">T+D</option>
+               <option value="F8">T+D+P</option>
+               <option value="F9">T+D+P+E</option>
+               <option value="F10">T+D+P+E+S</option>
+             </select>
+             </th>
+           </tr><tr>
+             <td><audio id="F_noisy_wav" controls=""><source id="F_noisy_wav_source" src="./src/F_p233_045/ref_noisy.wav" type="audio/wav"></audio></td>
+             <td><audio id="F_output_wav" controls=""><source id="F_output_wav_source" src="./src/F_p233_045/inspect1.wav" type="audio/wav"></audio></td>
+             <td><audio id="F_clean_wav" controls=""><source id="F_clean_wav_source" src="./src/F_p233_045/ref_clean.wav" type="audio/wav"></audio></td>
+           </tr>
+
+           <tr class="info"><td colspan="4"><span>2: Male speaker with SNR 6 (p311_094), <i>"The party has never fully recovered."</i></span></td>
+           </tr>
+           <tr>
+              <td calss="mel"><img id="M_noisy_mel" src="./src/M_p311_094/ref_noisy.png" alt="mel" width="300" height="200"></td>			
+              <td calss="mel"><img id="M_output_mel" src="./src/M_p311_094/inspect1.png" alt="mel" width="300" height="200"></td>		
+              <td calss="mel"><img id="M_clean_mel" src="./src/M_p311_094/ref_clean.png" alt="mel" width="300" height="200"></td>		
+            </tr>	
+           <tr><th></th><th>Combination: 
+             <select name="cars" id="select" onchange="selectComb(this.value)">
+               <option value="M1">T+D+P+E+S+N</option>
+               <option value="M2">T+D+P+E+N</option>
+               <option value="M3">T+D+P+N</option>
+               <option value="M4">T+D+N</option>
+               <option value="M5">T+N</option>
+               <option value="M6">T</option>
+               <option value="M7">T+D</option>
+               <option value="M8">T+D+P</option>
+               <option value="M9">T+D+P+E</option>
+               <option value="M10">T+D+P+E+S</option>
+             </select>
+             </th>
+           </tr><tr>
+             <td><audio id="M_noisy_wav" controls=""><source id="M_noisy_wav_source" src="./src/M_p311_094/ref_noisy.wav" type="audio/wav"></audio></td>
+             <td><audio id="M_output_wav" controls=""><source id="M_output_wav_source" src="./src/M_p311_094/inspect1.wav" type="audio/wav"></audio></td>
+             <td><audio id="M_clean_wav" controls=""><source id="M_clean_wav_source" src="./src/M_p311_094/ref_clean.wav" type="audio/wav"></audio></td>
+           </tr>
+           </tbody>
+        </table>	
+ -->	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  </head>
+</html>
