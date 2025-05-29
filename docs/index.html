@@ -50,18 +50,10 @@ Speech synthesis from intracranial EEG (iEEG) signals offers a promising avenue 
 <!-- <h1 style="text-align:center;color:blue"; style="font-family:verdana;">1) Male Speaker </h1> -->
 
 
-<p><b>Nonparallel: it generate speech in the desired "Style" for the "Unseen" target speaker</p></b>
 <hr>
 
-<br />
-
-<h2>1) Female Samples</h2>
 
 
-
-
-
-<tr><td colspan="2"><span><b>Text #1:</b> "I don't like miss stackpole-everything about her displeases me; she talks so much too loud and looks at one as if one wanted to look at her-which one doesn't"</span></td></tr>
 <br />
 <br />
 
@@ -73,42 +65,45 @@ Speech synthesis from intracranial EEG (iEEG) signals offers a promising avenue 
 	<thead>
 	  <tr>
 	    <th>Natural</th>
-	    <th>Conformer FS2_PWGAN</th>
-		<th>VITS_ESPnet2</th>
-		<th>Proposed</th>
+	    <th>Baseline [1]</th>
+		<th>MiSTR</th>
 	  </tr>
 	</thead>
 	<tbody>
 	  <tr>
 	    <td>
 	      <audio controls="">
-		<source src="wav/00_natural/Female/1069_133699_000003_000002.wav" type="audio/wav">
+		<source src="samples/original/sub-01_orig_audio.wav" type="audio/wav">
 	      </audio>
 	    </td>
 	    <td>
 	      <audio controls="">
-		<source src="wav/01_CFS2_PWGAN/Female/1069_133699_000003_000002.wav" type="audio/wav">
+		<source src="samples/baseline/sub-01_synthesized.wav" type="audio/wav">
 	      </audio>
 	    </td>
 	    <td>
 	      <audio controls="">
-		<source src="wav/02_VITS/Female/1069_133699_000003_000002.wav" type="audio/wav">
+		<source src="samples/MiSTR/sub-01_predicted.wav" type="audio/wav">
 	      </audio>
 	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/03_Proposed/Female/1069_133699_000003_000002.wav" type="audio/wav">
-	      </audio>
-	    </td>
-<!-- 	    <td>
-	      <audio controls="">
-		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
-	      </audio>
-	    </td> -->				
+
+
+				
 	  </tr>
 	</tbody>
       </table>
 	</div>
+	  
+	  
+	  
+	
+
+
+
+
+
+
+	
 	  
 <br />
 <br />	  
@@ -269,198 +264,10 @@ Speech synthesis from intracranial EEG (iEEG) signals offers a promising avenue 
 <!-- <hr style="border-top: 2px dashed gray;"> -->
 <hr style="border-top: 2px dashed gray; line-height: 0; content: '\0020 \0020 \0020 \0020 \0020 \0020 \0020 \0020 \0020 \0020 \0020';"> 
 
-<h2>2) Male Samples</h2>
 
 
 
 
-
-
-<tr><td colspan="2"><span><b>Text #1:</b> "a small pond in the track of the cloud was sucked dry, the water being carried over the adjoining fields together with a large quantity of soft mud, which was scattered over the ground for half a mile around"</span></td></tr>
-<br />
-<br />
-
-
-<div>	
-	
-      </table>
-      <table class="table">
-	<thead>
-	  <tr>
-	    <th>Natural</th>
-	    <th>Conformer FS2_PWGAN</th>
-		<th>VITS_ESPnet2</th>
-		<th>Proposed</th>
-	  </tr>
-	</thead>
-	<tbody>
-	  <tr>
-	    <td>
-	      <audio controls="">
-		<source src="wav/00_natural/Male/3240_131231_000020_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/01_CFS2_PWGAN/Male/3240_131231_000020_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/02_VITS/Male/3240_131231_000020_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/03_Proposed/Male/3240_131231_000020_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
-<!-- 	    <td>
-	      <audio controls="">
-		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
-	      </audio>
-	    </td> -->				
-	  </tr>
-	</tbody>
-      </table>
-	</div>
-	  
-<br />
-<br />	  
-<tr><td colspan="2"><span><b>Text #2:</b> "thirty years ago, you could take an old muzzle loader and knock over plenty of ducks in the city limits, and chicago wasn't cook county then, either"</span></td></tr>
-<br />
-<br />
-
-<div>
-	  
-      <table class="table">
-	<thead>
-	  <tr>
-	    <th>Natural</th>
-	    <th>Conformer FS2_PWGAN</th>
-		<th>VITS_ESPnet2</th>
-		<th>Proposed</th>
-	  </tr>
-	</thead>
-	<tbody>
-	  <tr>
-	    <td>
-	      <audio controls="">
-		<source src="wav/00_natural/Male/3242_67153_000007_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/01_CFS2_PWGAN/Male/3242_67153_000007_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/02_VITS/Male/3242_67153_000007_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/03_Proposed/Male/3242_67153_000007_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
-<!-- 	    <td>
-	      <audio controls="">
-		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
-	      </audio>
-	    </td> -->				
-	  </tr>
-	</tbody>
-      </table>
-	</div>
-
-<br />
-<br />	  
-<tr><td colspan="2"><span><b>Text #3:</b> "from the golden brightness, displayed by them at noon, they have changed to a lurid red-as if there was anger in the sky!"</span></td></tr>
-<br />
-<br />
-
-<div> 
-     <table class="table">
-	<thead>
-	  <tr>
-	    <th>Natural</th>
-	    <th>Conformer FS2_PWGAN</th>
-		<th>VITS_ESPnet2</th>
-		<th>Proposed</th>
-	  </tr>
-	</thead>
-	<tbody>
-	  <tr>
-	    <td>
-	      <audio controls="">
-		<source src="wav/00_natural/Male/6836_61803_000005_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/01_CFS2_PWGAN/Male/6836_61803_000005_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/02_VITS/Male/6836_61803_000005_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/03_Proposed/Male/6836_61803_000005_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
-<!-- 	    <td>
-	      <audio controls="">
-		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
-	      </audio>
-	    </td> -->				
-	  </tr>
-	</tbody>
-      </table>
-	</div>
-
-
-<br />
-<br />	  
-<tr><td colspan="2"><span><b>Text #4:</b> "somewhere about five o'clock pod came into camp with a good mess of trout"</span></td></tr>
-<br />
-<br />
-
-<div>
-      <table class="table">
-	<thead>
-	  <tr>
-	    <th>Natural</th>
-	    <th>Conformer FS2_PWGAN</th>
-		<th>VITS_ESPnet2</th>
-		<th>Proposed</th>
-	  </tr>
-	</thead>
-	<tbody>
-	  <tr>
-	    <td>
-	      <audio controls="">
-		<source src="wav/00_natural/Male/8098_278278_000025_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/01_CFS2_PWGAN/Male/8098_278278_000025_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/02_VITS/Male/8098_278278_000025_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
-	    <td>
-	      <audio controls="">
-		<source src="wav/03_Proposed/Male/8098_278278_000025_000000.wav" type="audio/wav">
-	      </audio>
-	    </td>
 <!-- 	    <td>
 	      <audio controls="">
 		<source src="wav/awb/arctic_a0208_cwt.wav" type="audio/wav">
