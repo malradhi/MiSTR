@@ -148,4 +148,17 @@ This script generates high-resolution plots and visualizations:
 All visual outputs are saved in the `/results/` directory.
 
 
+
 <br>
+<br> 
+
+## 📂 Directory Structure
+
+```bash
+./features/            # Extracted features and prosody files
+./results/             # Output spectrograms, waveforms, and plots
+./harmonic_phase_reconstructor.py
+./neural_signal_encoder.py
+./spectrogram_mapper_transformer.py
+./neural_output_visualizer.py
+```
