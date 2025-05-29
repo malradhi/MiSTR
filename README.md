@@ -192,17 +192,13 @@ This work is supported by the **European Union’s HORIZON Research and Innovati
 <br>
 <br>
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [Citation](#-citation) for details.
 
 
 
+## 📖 Citation and License
 
-<br>
-<br> 
+We’ve released our code under the MIT License to support open research. If you use it in your work, please consider citing us:
 
-## 📖 Citation
 
 ```bibtex
 @inproceedings{alradhi2025mistr,
