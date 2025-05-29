@@ -22,8 +22,7 @@
     <img src="https://img.shields.io/badge/arXiv-2505.19595-b31b1b.svg?logo=arXiv" alt="arXiv">
   </a> -->
   <a href="https://malradhi.github.io/MiSTR/">
-    <!-- <img src="https://img.shields.io/badge/GitHub-Demo%20page-orange.svg" alt="Demo"> -->
-	<img src="https://raw.githubusercontent.com/malradhi/MiSTR/main/img/demo_button.png" alt="Demo Page" width="180">
+    <img src="https://img.shields.io/badge/GitHub-Demo%20page-orange.svg" alt="Demo" width="180">
   </a>
 </div
 
