@@ -123,3 +123,21 @@ It will:
   - `*_predicted.wav` (updated)
   - `*_orig_synthesized.wav` (if regenerated)
 - Output `.wav` files in the `/results/` directory
+
+
+
+### 5. Visualization of Results
+
+```bash
+python neural_output_visualizer.py
+
+```
+
+This script generates high-resolution plots and visualizations:
+
+- `results.png`: Participant-wise correlation scores
+- `spec_example.png` and `.pdf`: Ground-truth vs. predicted spectrograms
+- `wav_example.png` and `.pdf`: Waveform comparison of original vs. reconstructed audio
+- `*_prosody_visualization.png`: Plots of extracted prosody features (if available)
+
+All visual outputs are saved in the `/results/` directory.
