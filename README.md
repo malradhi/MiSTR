@@ -194,7 +194,7 @@ This work is supported by the **European Union’s HORIZON Research and Innovati
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [Citation](#-citation) for details.
 
 
 
