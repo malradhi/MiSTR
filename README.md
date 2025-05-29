@@ -73,16 +73,14 @@ pip install -r requirements.txt
 
 
 ### 2. Feature Extraction from iEEG and Audio
+
 ```bash
 python neural_signal_encoder.py
 
-
 ```
 
-Generates:
+This will generate the following files for each participant (e.g., `sub-08`):
 
-*_feat.npy: wavelet + prosody features
-
-*_spec.npy: ground-truth Mel spectrogram
-
-*_prosody.npy: extracted prosody features
+- `*_feat.npy`: Wavelet + prosody features extracted from iEEG
+- `*_spec.npy`: Ground-truth Mel spectrogram from original audio
+- `*_prosody.npy`: Extracted prosody features (pitch, energy, shimmer, duration, phase variability)
