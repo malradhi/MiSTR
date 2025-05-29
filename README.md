@@ -14,18 +14,18 @@
   <sup>2</sup>Faculty of Electrical Engineering and Information Technologies, University of Ss. Cyril and Methodius, Skopje, Macedonia<br>
 </p>
 
-<!-- <div align="center">
-  <a href="https://github.com/ZhikangNiu/A-DMA">
+<div align="center">
+<!--   <a href="https://github.com/ZhikangNiu/A-DMA">
     <img src="https://img.shields.io/badge/Python-3.10-brightgreen" alt="Python">
-  </a>
-  <a href="https://arxiv.org/abs/2505.19595v1">
+  </a> -->
+<!--   <a href="https://arxiv.org/abs/2505.19595v1">
     <img src="https://img.shields.io/badge/arXiv-2505.19595-b31b1b.svg?logo=arXiv" alt="arXiv">
-  </a>
-  <a href="https://mm.kaist.ac.kr/projects/A-DMA">
+  </a> -->
+  <a href="https://malradhi.github.io/MiSTR/">
     <img src="https://img.shields.io/badge/GitHub-Demo%20page-orange.svg" alt="Demo">
   </a>
 </div
- -->
+
  
  
 <br>
