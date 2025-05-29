@@ -204,16 +204,6 @@ This project is licensed under the MIT License - see the [Citation](#-citation) 
 
 ## 📖 Citation
 
-<!-- ```bash
-@inproceedings{alradhi2025mistr,
-  title     = {MiSTR: Multi-Modal iEEG-to-Speech Synthesis with Transformer-Based Prosody Prediction and Neural Phase Reconstruction},
-  author    = {Mohammed Salah Al-Radhi and G{\'e}za N{\'e}meth and Branislav Gerazov},
-  booktitle = {Proceedings of Interspeech 2025},
-  year      = {2025},
-  address   = {Rotterdam, The Netherlands}
-}
-``` -->
-
 ```bibtex
 @inproceedings{alradhi2025mistr,
   title     = {MiSTR: Multi-Modal iEEG-to-Speech Synthesis with Transformer-Based Prosody Prediction and Neural Phase Reconstruction},

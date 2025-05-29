@@ -4,7 +4,7 @@
 
 
   <head>
-    <title>expttsyle</title>
+    <title>MiSTR</title>
       <article>
         <header>
 		
@@ -16,34 +16,27 @@
 <p><br> 
 </br></p>
 	
-	<h1>Nonparallel Expressive TTS for Unseen Target Speaker using Style-Controlled Adaptive Layer and Optimized Pitch Embedding</h1>
+	<h1>MiSTR: Multi-Modal iEEG-to-Speech Synthesis with Transformer-Based Prosody Prediction and Neural Phase Reconstruction</h1>
         </header>
       </article>
 	  <p>  </p>
 	  
-	  <p><b>Authors:</b> <a href="https://malradhi.github.io/" target="_blank">Mohammed Salah Al-Radhi</a>, Tamás Gábor Csapó, Géza Németh</p>
+	  <p><b>Authors:</b> <a href="https://malradhi.github.io/" target="_blank">Mohammed Salah Al-Radhi</a>, Géza Németh, Branislav Gerazov</p>
 	  <p> 
 	  </p>  
 <p> 
 </p>
 
-<!-- <h3>Datasets</h3> -->
-<!-- <li>Authors names and affiliation: <i>Anonymous submission to INTERSPEECH 2023</i></li> -->
-<li><a href="https://www.openslr.org/60/" target="_blank">LibriTTS corpus:</a> 110 hours audios of 1151 speakers and their corresponding text transcripts</li>
-<li>Pre-trained model: <a href="https://drive.google.com/file/d/176z-t1M2BrIUR9KDp9z77eF3RfiXeDnA/view?usp=sharing" target="_blank">120000.pth.tar</a></li>
 
 
-<!-- <br />  -->
-
-<!-- <h3>Pre-trained model: </h3> -->
 
 
 <p>
 <b>Abstract: </b>
-Recent advancements in text-to-speech (TTS) systems have focused on developing style-controlled models that generate speech with desired characteristics such as accent, tone, pitch, and expressiveness. However, controlling the style during the training process remains a challenge, mainly when dealing with nonparallel data (i.e., where text and audio data lack perfect alignment on a one-to-one basis). In this paper, we propose a nonparallel expressive TTS approach by first introducing a novel advanced control style adaptive layer normalization method to improve the controllability and stability of the training process. Second, we present an optimized pitch embedding method that enhances flexibility and control over pitch manipulation, resulting in improved accuracy in pitch generation. Our experimental results demonstrate that our approach achieves state-of-the-art performance in naturalness and similarity to the speaking styles of the synthesized speeches for unseen target speakers.
+Speech synthesis from intracranial EEG (iEEG) signals offers a promising avenue for restoring communication in individuals with severe speech impairments. However, achieving intelligible and natural speech remains challenging due to limitations in feature representation, prosody modeling, and phase reconstruction. We introduce MiSTR, a deep-learning framework that integrates: 1) Wavelet-based feature extraction to capture fine-grained temporal, spectral, and neurophysiological representations of iEEG signals, 2) A Transformer-based decoder for prosody-aware spectrogram prediction, and 3) A neural phase vocoder enforcing harmonic consistency via adaptive spectral correction. Evaluated on a public iEEG dataset, MiSTR achieves state-of-the-art speech intelligibility, with a mean Pearson correlation of 0.91 between reconstructed and original Mel spectrograms, improving over existing neural speech synthesis baselines.
 </p>
 
-<p align="left"><img width="40%" src="img/model.jpg" /></p>
+<p align="left"><img width="40%" src="img/model.png" /></p>
 
 
 
