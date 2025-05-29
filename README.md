@@ -71,3 +71,18 @@ pip install -r requirements.txt
 ```
 💡 Note: Requires PyTorch ≥ 2.0 and CUDA-compatible GPU for best performance.
 
+
+### 2. Feature Extraction from iEEG and Audio
+```bash
+python neural_signal_encoder.py
+
+
+```
+
+Generates:
+
+*_feat.npy: wavelet + prosody features
+
+*_spec.npy: ground-truth Mel spectrogram
+
+*_prosody.npy: extracted prosody features
