@@ -31,4 +31,6 @@
 ## 📜 News
 🧠 [2025.5.29] We are releasing all the code to support research on accelerating MiSTR multi-modal models.
 
-🥳 [2025.05.19, 11:54 AM CET] Our paper has been accepted to [Interspeech 2025](https://www.interspeech2025.org/home), Looking forward to seeing you in Rotterdam, The Netherlands at the conference!
+🥳 [2025.05.19, 11:54 AM CET] Our paper has been accepted to 
+<a href="https://www.interspeech2025.org/home" target="_blank" rel="noopener noreferrer">Interspeech 2025</a>! 
+Looking forward to seeing you in Rotterdam, The Netherlands at the conference!
