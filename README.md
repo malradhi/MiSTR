@@ -72,7 +72,7 @@
 ### 1. Clone the Repository and Set Up the Environment
 
 ```bash
-git clone https://github.com/yourusername/mistr.git
+git clone git clone https://github.com/malradhi/mistr.git
 cd mistr
 
 # Recommended: Create a clean environment
