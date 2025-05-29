@@ -4,7 +4,7 @@
 <h1 align="center"><strong>MiSTR: Multi-Modal iEEG-to-Speech Synthesis with Transformer-Based Prosody Prediction and Neural Phase Reconstruction</strong></h1>
 
 <p align="center" style="font-size: 1 em; margin-top: 1em">
-<a href="https://malradhi.github.io/" target="_blank">Mohammed Salah Al-Radhi<sup>1</sup></a>,  
+<a href="https://malradhi.github.io/">Mohammed Salah Al-Radhi<sup>1</sup></a>,  
 <a href="https://scholar.google.ro/citations?user=Qf5PHwoAAAAJ&hl=en/">Géza Németh<sup>1</sup></a>,  
 <a href="https://gerazov.github.io/">Branislav Gerazov<sup>2</sup></a>,
 </p>
@@ -31,8 +31,8 @@
 ## 📜 News
 🧠 [2025.5.29] We are releasing all the code to support research on accelerating MiSTR multi-modal models.
 
-🥳 [2025.05.19, 11:54 AM CET] Our paper has been accepted to 
-<a href="https://www.interspeech2025.org/home" target="_blank">Interspeech 2025</a>! 
+🥳 [2025.05.19, 11:54 AM CET] Our paper has been accepted to [Interspeech 2025](https://www.interspeech2025.org/home)!  
 Looking forward to seeing you in Rotterdam, The Netherlands at the conference!
+
 
 
