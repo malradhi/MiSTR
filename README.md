@@ -103,3 +103,23 @@ This script will:
   - `*_orig_synthesized.wav` — from original spectrogram
   - `*_predicted.wav` — from predicted spectrogram
 - Save evaluation results in `temporal_attention_results.npy`
+
+
+
+### 4. Phase-Aware Waveform Reconstruction (IHPR Vocoder)
+
+```bash
+python harmonic_phase_reconstructor.py
+
+```
+
+This script applies **Iterative Harmonic Phase Reconstruction (IHPR)** to refine phase and improve audio quality.
+
+It will:
+
+- Load predicted spectrograms (`*_predicted_spec.npy`)
+- Apply harmonic-consistent phase reconstruction
+- Save high-fidelity audio waveforms for each participant:
+  - `*_predicted.wav` (updated)
+  - `*_orig_synthesized.wav` (if regenerated)
+- Output `.wav` files in the `/results/` directory
