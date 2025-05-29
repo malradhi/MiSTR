@@ -35,3 +35,13 @@
 
 
 
+## 💡 Highlights
+1. **Multi-Modal iEEG Feature Encoding**: MiSTR introduces a wavelet-based encoder combined with prosody-aware features (pitch, energy, shimmer, duration, phase variability) to model the neural dynamics of speech production.
+2. **Transformer-Based Prosody Decoder**: A novel Transformer architecture captures long-range dependencies in brain activity to predict expressive and fluent Mel spectrograms aligned with speech prosody.
+3. **Neural Phase Vocoder (IHPR)**: MiSTR proposes Iterative Harmonic Phase Reconstruction (IHPR), ensuring phase continuity and harmonic consistency for high-fidelity audio synthesis without vocoder artifacts.
+4. **State-of-the-Art Performance**: Achieves a Pearson correlation of 0.91, STOI of 0.73, and MOSA score of 3.38, outperforming all existing baselines in iEEG-to-speech synthesis.
+5. **Clinically Inspired Design**: Designed with speech neuroprosthetics in mind, MiSTR offers a scalable, robust pipeline for restoring natural speech in individuals with severe communication impairments.
+6. **Code and Samples Available**: Full implementation, pretrained models, and inference samples are provided in this GitHub repository to support reproducibility and further research.
+
+
+
