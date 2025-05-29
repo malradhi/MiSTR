@@ -79,7 +79,7 @@ python neural_signal_encoder.py
 
 ```
 
-This will generate the following files for each participant (e.g., `sub-08`):
+This will generate the following files for each participant (e.g., `sub-XX`):
 
 - `*_feat.npy`: Wavelet + prosody features extracted from iEEG
 - `*_spec.npy`: Ground-truth Mel spectrogram from original audio
