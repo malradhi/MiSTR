@@ -4,7 +4,7 @@
 <h1 align="center"><strong>MiSTR: Multi-Modal iEEG-to-Speech Synthesis with Transformer-Based Prosody Prediction and Neural Phase Reconstruction</strong></h1>
 
 <p align="center" style="font-size: 1 em; margin-top: 1em">
-<a href="https://malradhi.github.io/">Mohammed Salah Al-Radhi<sup>1</sup></a>,  
+<a href="https://malradhi.github.io/" target="_blank">Mohammed Salah Al-Radhi<sup>1</sup></a>,  
 <a href="https://scholar.google.ro/citations?user=Qf5PHwoAAAAJ&hl=en/">Géza Németh<sup>1</sup></a>,  
 <a href="https://gerazov.github.io/">Branislav Gerazov<sup>2</sup></a>,
 </p>
