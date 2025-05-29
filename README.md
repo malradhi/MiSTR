@@ -50,3 +50,20 @@
 
 
 
+<br>
+<br>
+
+## 🛠️ Usage
+
+### 1. Clone the Repository and Set Up the Environment
+
+```bash
+git clone https://github.com/yourusername/mistr.git
+cd mistr
+
+# Recommended: Create a clean environment
+conda create -n mistr python=3.10
+conda activate mistr
+
+# Install required Python packages
+pip install -r requirements.txt
