@@ -73,6 +73,7 @@ pip install -r requirements.txt
 
 
 <br>
+
 ### 2. Feature Extraction from iEEG and Audio
 
 ```bash
@@ -87,6 +88,7 @@ This will generate the following files for each participant (e.g., `sub-XX`):
 - `*_prosody.npy`: Extracted prosody features (pitch, energy, shimmer, duration, phase variability)
 
 <br>
+
 ### 3. Train the Spectrogram Mapper (Autoencoder + Transformer)
 
 ```bash
@@ -107,6 +109,7 @@ This script will:
 
 
 <br>
+
 ### 4. Phase-Aware Waveform Reconstruction (IHPR Vocoder)
 
 ```bash
@@ -127,6 +130,7 @@ It will:
 
 
 <br>
+
 ### 5. Visualization of Results
 
 ```bash
