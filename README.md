@@ -169,9 +169,9 @@ All visual outputs are saved in the `/results/` directory.
 
 ### 🙏 Acknowledgements
 
-This work is supported by the **European Union’s HORIZON Research and Innovation Programme** under grant agreement No. **101120657**, project **ENFIELD** (European Lighthouse to Manifest Trustworthy and Green AI), and by the **Ministry of Innovation and Culture** and the **National Research, Development and Innovation Office of Hungary** within the framework of the **National Laboratory of Artificial Intelligence**.
+This work is supported by the **European Union’s HORIZON Research and Innovation Programme** under grant agreement No. **101120657**, project **[ENFIELD](https://doi.org/10.3030/101120657)** (European Lighthouse to Manifest Trustworthy and Green AI), and by the **Ministry of Innovation and Culture** and the **National Research, Development and Innovation Office of Hungary** within the framework of the **National Laboratory of Artificial Intelligence**.
 
-**M.S. Al-Radhi’s** research was supported by the project **EKÖP-24-4-II-BME-197**, through the **National Research, Development and Innovation (NKFI) Fund**.
+**M.S. Al-Radhi’s** research was supported by the project **EKÖP-24-4-II-BME-197**, through the National Research, Development and Innovation (NKFI) Fund.
 
 
 
