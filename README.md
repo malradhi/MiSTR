@@ -72,6 +72,7 @@ pip install -r requirements.txt
 💡 Note: Requires PyTorch ≥ 2.0 and CUDA-compatible GPU for best performance.
 
 
+<br>
 ### 2. Feature Extraction from iEEG and Audio
 
 ```bash
@@ -85,7 +86,7 @@ This will generate the following files for each participant (e.g., `sub-XX`):
 - `*_spec.npy`: Ground-truth Mel spectrogram from original audio
 - `*_prosody.npy`: Extracted prosody features (pitch, energy, shimmer, duration, phase variability)
 
-
+<br>
 ### 3. Train the Spectrogram Mapper (Autoencoder + Transformer)
 
 ```bash
@@ -105,7 +106,7 @@ This script will:
 - Save evaluation results in `temporal_attention_results.npy`
 
 
-
+<br>
 ### 4. Phase-Aware Waveform Reconstruction (IHPR Vocoder)
 
 ```bash
@@ -125,7 +126,7 @@ It will:
 - Output `.wav` files in the `/results/` directory
 
 
-
+<br>
 ### 5. Visualization of Results
 
 ```bash
@@ -141,3 +142,6 @@ This script generates high-resolution plots and visualizations:
 - `*_prosody_visualization.png`: Plots of extracted prosody features (if available)
 
 All visual outputs are saved in the `/results/` directory.
+
+
+<br>
