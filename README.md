@@ -28,15 +28,17 @@
  -->
  
  
- 
-## 
+<br>
+<br> 
+
 
 ## 📜 News
 🧠 [2025.5.29] We are releasing all the code to support research on accelerating MiSTR multi-modal models.
 
 🥳 [2025.05.19, 11:54 AM CET] Our paper has been accepted to [Interspeech 2025](https://www.interspeech2025.org/home). Looking forward to seeing you in Rotterdam, The Netherlands at the conference!
 
-## 
+<br>
+<br> 
 
 ## 💡 Highlights
 1. **Multi-Modal iEEG Feature Encoding**: MiSTR introduces a wavelet-based encoder combined with prosody-aware features (pitch, energy, shimmer, duration, phase variability) to model the neural dynamics of speech production.
