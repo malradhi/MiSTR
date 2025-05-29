@@ -68,5 +68,6 @@ conda activate mistr
 # Install required Python packages
 pip install -r requirements.txt
 
+```
 💡 Note: Requires PyTorch ≥ 2.0 and CUDA-compatible GPU for best performance.
 
