@@ -84,3 +84,22 @@ This will generate the following files for each participant (e.g., `sub-XX`):
 - `*_feat.npy`: Wavelet + prosody features extracted from iEEG
 - `*_spec.npy`: Ground-truth Mel spectrogram from original audio
 - `*_prosody.npy`: Extracted prosody features (pitch, energy, shimmer, duration, phase variability)
+
+
+### 3. Train the Spectrogram Mapper (Autoencoder + Transformer)
+
+```bash
+python spectrogram_mapper_transformer.py
+
+```
+
+This script will:
+
+- Train a **neural autoencoder** to compress iEEG features into a compact latent space
+- Use a **Transformer** to predict Mel spectrograms from the latent iEEG representations
+- Generate audio waveforms from predicted and ground-truth spectrograms
+- Save predicted spectrograms as `*_predicted_spec.npy`
+- Save synthesized audio files:
+  - `*_orig_synthesized.wav` — from original spectrogram
+  - `*_predicted.wav` — from predicted spectrogram
+- Save evaluation results in `temporal_attention_results.npy`
